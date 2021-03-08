@@ -1,7 +1,7 @@
 {
-    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
-    "project-repository": "https://github.com/DSC-Capstone/project-templates.git",
-    "dockerhub-repository": "amfraenkel/fair-policing-project:latest",
-    "project-website-url": "https://afraenkel.github.io/capstone-malware-domain/",
-    "project-website-code": "https://github.com/afraenkel/capstone-malware-domain.git"
+    "this-repository": "https://github.com/amarjoea/artifact-directory-template.git",
+    "project-repository": "https://github.com/rcgonzalez9061/m2v-adversarial-hindroid",
+    "dockerhub-repository": "rcgonzal/m2v-adversarial-hindroid:latest",
+    "project-website-url": "https://rcgonzalez9061.github.io/m2vDroid-blog/",
+    "project-website-code": "https://github.com/rcgonzalez9061/m2vDroid-blog"
 }

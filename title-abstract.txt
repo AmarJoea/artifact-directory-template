@@ -1,5 +1,7 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Attacking the HinDroid Malware Detector
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Over the past decade, malware has established itself as a constant issue for the Android operating system. In 2018, Symantec reported that they blocked more than 10 thousand malicious Android apps per day, while nearly 3 quarters of Android devices remained on older versions of Android. With billions of active Android devices, millions of users are only a swipe away from becoming victims. Naturally, automated machine learning-based detection systems have become commonplace solutions as they can drastically speed up the labeling process. However, it has been shown that many of these models are vulnerable to adversarial attacks, notably attacks that add redundant code to malware to consfuse detectors.
+
+First, we introduce a new model that extends the Hindroid detection system by employing node embeddings using metapath2vec. We believe that the introduction of node embeddings will improve the performance of the model beyond the capabilities of HinDroid. Second, we intend to break these two models using a method similar to that proposed in the Android HIV paper. That is we train an adversarial model that perturbs malware such that a detector mislabels it as a benign app. We then measure the performance of each model after recursively feeding adversarial examples back into them. We believe that by doing so, our model will be able to outperform the Hindroid implementation in its ability to label malware even after adversarial examples have been added.
